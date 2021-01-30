@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Times of rahul</title>
+	<style type="text/css">
+			*{
+				font-size: 30px;
+				font-family: calibri;
+			}
+		</style>
+</head>
+<body>
+	<CENTER>
+		<h1>Welcome to news project</h1>
+		<FORM method="POST">{%csrf_token%}
+			<select id="" name="src">
+				<option value="times-of-india">Times of India </option>
+				<option value="the-hindu">The Hindu</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" value="Fly">
+		</FORM>
+		{{msg}}
+	</CENTER>
+</body>
+</html>
